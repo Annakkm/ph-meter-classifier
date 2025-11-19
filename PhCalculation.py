@@ -2,8 +2,8 @@ class PhCaluculation:
     """Acts as a component of the system (Composition part)."""
     def __init__(self):
         # Fields defining the range for a neutral solution
-        self.max_neutral = 6.9
-        self.min_neutral = 7.1
+        self.min_neutral = 6.9
+        self.max_neutral = 7.1
 
     def get_type(self, ph_value):
         """Determines the type of solution (Acidic, Alkaline, or Neutral)."""

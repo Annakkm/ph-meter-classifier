@@ -12,7 +12,8 @@ class PhMeter:
 
     def analyze_ph(self):
         # Using the sensor component to get data
-        ph_value = self.sensor.read_value()
+        # ph_value = self.sensor.read_value()
+        ph_value = 7.09
         # Using the classifier component
         solution_type = self.calculation.get_type(ph_value)
         is_potable = self.calculation.is_safe_for_drinking(ph_value)
